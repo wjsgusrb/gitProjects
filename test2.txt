@@ -1,0 +1,507 @@
+sdftest2도 변경했지롱
+Microsoft Windows [Version 10.0.19045.3324]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\jeonh>git--version
+'git--version'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+C:\Users\jeonh>git --version
+git version 2.42.0.windows.1
+
+C:\Users\jeonh>git config --global init.defaultBranch main
+
+C:\Users\jeonh>git config --global user.name "현규"
+
+C:\Users\jeonh>git config --global user.email "jeonhk7@naver.com"\
+
+C:\Users\jeonh>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+init.defaultbranch=main
+user.name=현규
+user.email=jeonhk7@naver.com\
+
+C:\Users\jeonh>
+C:\Users\jeonh>git config --global user.email "jeonhk7@naver.com"
+
+C:\Users\jeonh>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+init.defaultbranch=main
+user.name=현규
+user.email=jeonhk7@naver.com
+
+C:\Users\jeonh>cd Documents
+
+C:\Users\jeonh\Documents>cdgitProject
+'cdgitProject'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+C:\Users\jeonh\Documents>cd
+C:\Users\jeonh\Documents
+
+C:\Users\jeonh\Documents>gitProject
+'gitProject'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+C:\Users\jeonh\Documents>cd gitProject
+
+C:\Users\jeonh\Documents\gitProject>디렉터리
+'디렉터리'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+C:\Users\jeonh\Documents\gitProject>dir
+ C 드라이브의 볼륨: OS
+ 볼륨 일련 번호: 50F8-99FB
+
+ C:\Users\jeonh\Documents\gitProject 디렉터리
+
+2023-08-22  오후 04:30    <DIR>          .
+2023-08-22  오후 04:30    <DIR>          ..
+               0개 파일                   0 바이트
+               2개 디렉터리  963,362,537,472 바이트 남음
+
+C:\Users\jeonh\Documents\gitProject>git init
+Initialized empty Git repository in C:/Users/jeonh/Documents/gitProject/.git/
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test1.txt
+        test2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\jeonh\Documents\gitProject>
+C:\Users\jeonh\Documents\gitProject>git add .
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   test1.txt
+        new file:   test2.txt
+
+
+C:\Users\jeonh\Documents\gitProject>git comit -m "initProject"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+C:\Users\jeonh\Documents\gitProject>git log
+fatal: your current branch 'main' does not have any commits yet
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   test1.txt
+        new file:   test2.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test1.txt
+        modified:   test2.txt
+
+
+C:\Users\jeonh\Documents\gitProject>git add .
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   test1.txt
+        new file:   test2.txt
+
+
+C:\Users\jeonh\Documents\gitProject>git comit -m "text file edit"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+C:\Users\jeonh\Documents\gitProject>git log
+fatal: your current branch 'main' does not have any commits yet
+
+C:\Users\jeonh\Documents\gitProject>git log
+fatal: your current branch 'main' does not have any commits yet
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   test1.txt
+        new file:   test2.txt
+
+
+C:\Users\jeonh\Documents\gitProject>git commit -m "test file edit"
+[main (root-commit) 51ffb93] test file edit
+ 2 files changed, 2 insertions(+)
+ create mode 100644 test1.txt
+ create mode 100644 test2.txt
+
+C:\Users\jeonh\Documents\gitProject>git log
+commit 51ffb9339ba814051dbf9c11f9513782d8ad0db7 (HEAD -> main)
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:48:10 2023 +0900
+
+    test file edit
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\jeonh\Documents\gitProject>git add ./test1.txt
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test1.txt
+
+
+C:\Users\jeonh\Documents\gitProject>git commit "file test1"
+error: pathspec 'file test1' did not match any file(s) known to git
+
+C:\Users\jeonh\Documents\gitProject>git log
+commit 51ffb9339ba814051dbf9c11f9513782d8ad0db7 (HEAD -> main)
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:48:10 2023 +0900
+
+    test file edit
+
+C:\Users\jeonh\Documents\gitProject>git commit -m "file test1"
+[main 3871d70] file test1
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\jeonh\Documents\gitProject>git log
+commit 3871d70799ac4eff3fe41b6a34aa42bec37c843f (HEAD -> main)
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:50:05 2023 +0900
+
+    file test1
+
+commit 51ffb9339ba814051dbf9c11f9513782d8ad0db7
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:48:10 2023 +0900
+
+    test file edit
+
+C:\Users\jeonh\Documents\gitProject>git commit -m "file test2"
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\jeonh\Documents\gitProject>git log
+commit 3871d70799ac4eff3fe41b6a34aa42bec37c843f (HEAD -> main)
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:50:05 2023 +0900
+
+    file test1
+
+commit 51ffb9339ba814051dbf9c11f9513782d8ad0db7
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:48:10 2023 +0900
+
+    test file edit
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\jeonh\Documents\gitProject>git.add
+'git.add'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+C:\Users\jeonh\Documents\gitProject>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\jeonh\Documents\gitProject>git log
+commit 3871d70799ac4eff3fe41b6a34aa42bec37c843f (HEAD -> main)
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:50:05 2023 +0900
+
+    file test1
+
+commit 51ffb9339ba814051dbf9c11f9513782d8ad0db7
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:48:10 2023 +0900
+
+    test file edit
+
+C:\Users\jeonh\Documents\gitProject>git log
+commit 3871d70799ac4eff3fe41b6a34aa42bec37c843f (HEAD -> main)
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:50:05 2023 +0900
+
+    file test1
+
+commit 51ffb9339ba814051dbf9c11f9513782d8ad0db7
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:48:10 2023 +0900
+
+    test file edit
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\jeonh\Documents\gitProject>git commit -m "file test2"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\jeonh\Documents\gitProject>git commit -m "file test2"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\jeonh\Documents\gitProject>git log
+commit 3871d70799ac4eff3fe41b6a34aa42bec37c843f (HEAD -> main)
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:50:05 2023 +0900
+
+    file test1
+
+commit 51ffb9339ba814051dbf9c11f9513782d8ad0db7
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:48:10 2023 +0900
+
+    test file edit
+
+C:\Users\jeonh\Documents\gitProject>sit status
+'sit'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\jeonh\Documents\gitProject>git commit
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\jeonh\Documents\gitProject>git commit -m"test1 upgrad"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\jeonh\Documents\gitProject>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\jeonh\Documents\gitProject>git add ./test1.txt
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\jeonh\Documents\gitProject>git add ./text2.txt
+fatal: pathspec './text2.txt' did not match any files
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\jeonh\Documents\gitProject>git add ./test2.txt
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test2.txt
+
+
+C:\Users\jeonh\Documents\gitProject>git add ./test1.txt
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test2.txt
+
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test2.txt
+
+
+C:\Users\jeonh\Documents\gitProject>git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test2.txt
+
+
+C:\Users\jeonh\Documents\gitProject>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\jeonh\Documents\gitProject>git commit -m "teat2"
+[main f747f11] teat2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\jeonh\Documents\gitProject>git log
+commit f747f1192c5caeb4b5442be822058a64fa414729 (HEAD -> main)
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 17:10:21 2023 +0900
+
+    teat2
+
+commit 3871d70799ac4eff3fe41b6a34aa42bec37c843f
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:50:05 2023 +0900
+
+    file test1
+
+commit 51ffb9339ba814051dbf9c11f9513782d8ad0db7
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:48:10 2023 +0900
+
+    test file edit
+
+C:\Users\jeonh\Documents\gitProject>git reset --hard f747f1192c5caeb4b5442be822058a64fa414729
+HEAD is now at f747f11 teat2
+
+C:\Users\jeonh\Documents\gitProject>git log
+commit f747f1192c5caeb4b5442be822058a64fa414729 (HEAD -> main)
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 17:10:21 2023 +0900
+
+    teat2
+
+commit 3871d70799ac4eff3fe41b6a34aa42bec37c843f
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:50:05 2023 +0900
+
+    file test1
+
+commit 51ffb9339ba814051dbf9c11f9513782d8ad0db7
+Author: 현규 <jeonhk7@naver.com>
+Date:   Tue Aug 22 16:48:10 2023 +0900
+
+    test file edit
+
+C:\Users\jeonh\Documents\gitProject>git reset --hard 51ffb9339ba814051dbf9c11f9513782d8ad0db7
+HEAD is now at 51ffb93 test file edit
+
+C:\Users\jeonh\Documents\gitProject>git reset --hard commit f747f1192c5caeb4b5442be822058a64fa41472
+fatal: ambiguous argument 'commit': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+C:\Users\jeonh\Documents\gitProject>git reset --hard f747f1192c5caeb4b5442be822058a64fa414729
+HEAD is now at f747f11 teat2
+
+C:\Users\jeonh\Documents\gitProject>
+git
